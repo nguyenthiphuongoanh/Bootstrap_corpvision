@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corpvision</title>
+  <!-- link BT4 icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- link animate -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- google font -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700&family=Roboto:wght@300;400;500;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- slick slider css -->
+  <link rel="stylesheet" href="./css/slick.css">
+
+    <!-- carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+    integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+  <!-- BT4 CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+  <!-- main CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body id="myBody">
+  <!-- HEADER -->
+  <header class="header fixed-top main-header">
+    <nav class="d-flex justify-content-around navcorpvision navbar navbar-expand-lg">
+      <a class="navbar-brand text-center" href="#">
+        <p class="font-weight-bold mb-0"><i class="header__logo fa fa-align-right"></i>Corp Vision</p>
+        <p class="font-weight-bold">Vision to your Future</p>
+      </a>
+
+     
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorpvision"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa fa-bars"></i>
+      </button>
+
+      <div id="navbarCorpvision">
+        <ul class="container navbar-nav font-weight-bold">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">SERVICES</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a href="#" role="button" data-toggle="dropdown" aria-expanded="false" style="text-decoration: none;">
+              PAGES
+              <i class="fa fa-angle-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">BLOG POSTS</a>
+              <a class="dropdown-item" href="#">404 PAGE</a>
+              <a class="dropdown-item" href="#">LANDING PAGE</a>
+              <a class="dropdown-item" href="#">ELEMENTS PAGE</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT</a>
+          </li>
+        </ul>
+
+
+      </div>
+      <div class="header__icon">
+        <a href="#" class="m-0">
+          <i class="header__icon__search fa fa-search"></i>
+        </a>
+        <div class="btn" id="switchButton">
+          <i class="far fa-moon"></i>
+          <i class="bi bi-brightness-high"></i>
+        </div>
+      </div>
+      
+
+    </nav>
+  </header>
+
+  <!-- CAROUSEL -->
+
+  <section class="Corpcarousel">
+    <div id="carouselCorpcarousel" class="carousel slide" data-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/b1.jpg" class="d-block w-100" alt="...">
+          <div class="container carousel-caption d-none d-md-block">
+            <h1 class="animate__animated animate__flipInX animate__delay-1s"> We will solve your issues <br> our vision
+              to your future</h1>
+            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, explicabo totam. Perferendis voluptate incidunt minima impedit</p>
+            <button type="button" class="btn btn-success animate__animated animate__fadeInUp animate__delay-1s">Learn
+              More</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/b2.jpg" class="d-block w-100" alt="...">
+          <div class="container carousel-caption d-none d-md-block">
+            <h1 class="animate__animated animate__fadeInDown animate__delay-1s"> Embracing success do our <br> best,
+              need best advice</h1>
+            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, explicabo totam. Perferendis voluptate incidunt minima impedit</p>
+            <button type="button" class="btn btn-success animate__animated animate__fadeInDown animate__delay-1s">Get
+              Started</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/b3.jpg" class="d-block w-100" alt="...">
+          <div class="container carousel-caption d-none d-md-block">
+            <h1 class="animate__animated animate__fadeInUp animate__delay-1s"> Digital transformation <br> driven by
+              technology</h1>
+            <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, explicabo totam. Perferendis voluptate incidunt minima impedit</p>
+            <button type="button" class="btn btn-success animate__animated animate__fadeInDown animate__delay-1s"> Learn
+              More</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./img/b4.jpg" class="d-block w-100" alt="...">
+          <div class="container carousel-caption d-none d-md-block">
+            <h1 class="animate__animated animate__flipInX animate__delay-1s"> For those who believe <br> in leaving a
+              mark</h1>
+            <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Corrupti, explicabo totam. Perferendis voluptate incidunt minima impedit</p>
+            <button type="button" class="btn btn-success animate__animated animate__fadeInUp animate__delay-1s">Contact
+              Now</button>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" data-target="#carouselCorpcarousel" data-slide="prev">
+        <span class="prev_icon"><i class="fa fa-arrow-left"></i></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" data-target="#carouselCorpcarousel" data-slide="next">
+        <span class="next_icon"><i class="fa fa-arrow-right"></i></span>
+        <span class="sr-only">Next</span>
+      </button>
+
+
+    </div>
+    <div class="shape">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 280">
+        <path fill-opacity="1">
+          <animate attributeName="d" dur="20000ms" repeatCount="indefinite"
+            values="M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z; M0,160L48,181.3C96,203,192,245,288,234.7C384,224,480,160,576,133.3C672,107,768,117,864,138.7C960,160,1056,192,1152,197.3C1248,203,1344,181,1392,170.7L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;												 M0,64L48,74.7C96,85,192,107,288,133.3C384,160,480,192,576,170.7C672,149,768,75,864,80C960,85,1056,171,1152,181.3C1248,192,1344,128,1392,96L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;
+M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,149,864,117.3C960,85,1056,75,1152,90.7C1248,107,1344,149,1392,170.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z;" />
+        </path>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ABOUT US -->
+  <section class="aboutus py-5">
+    <div class="container py-lg-5">
+      <div class="row align-item-center">
+        <div class="col-lg-6">
+          <span class="title-small">ABOUT US</span>
+          <h3 class="title-big">We make the best strategies for you, Enhancing your success</h3>
+          <p class="content mt-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore
+            magna aliqua. Ut enim ad minim veniam, quis nostrud ullamco laboris nisi ut ex ea.</p>
+          <ul class="sevice-list mt-4">
+            <li>
+              <a href="#url">
+                <span>
+                  <i class="fa fa-check-circle"></i>
+                  UI/UX Design and Development
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#url">
+                <span>
+                  <i class="fa fa-check-circle"></i>
+                  Branding Design and Identity
+                </span>
+              </a>
+            </li>
+            <li>
+              <a href="#url">
+                <span>
+                  <i class="fa fa-check-circle"></i>
+                  Mobile App Design and Development
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="AboutImages col-lg-6 mt-lg-0 mt-md-5">
+          <div class="row position-relative">
+            <div class="col-6">
+              <img src="./img/a.jpg" alt="" class="radius-image img-fluid">
+            </div>
+            <div class="col-6 mt-4">
+              <img src="./img/c1.jpg" alt="" class="radius-image img-fluit mb-md-3 w-100">
+              <img src="./img/c4.jpg" alt="" class="radius-image img-fluit mt-md-3 w-100">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- FEATURE -->
+  <section class="feature py-5">
+    <div class="container py-lg-5 py-md-4">
+      <div class="row align-item-center">
+        <div class="feature__left col-lg-6 pr-lg-5">
+          <span class="title-small mt-5">EVERY DAY BRINGS NEW CHALLENGES</span>
+          <h3 class="title-big">Creative agency focused on vision, product and people</h3>
+          <p class="content mt-md-4">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia
+            est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.
+            Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
+          <button type="button" class="btn btn-success mt-lg-4">Discover More</button>
+        </div>
+        <div class="feature__right col-lg-6">
+          <div class="feature__right__box d-grid">
+            <div class="box-wrap">
+              <div class="icon">
+                <img src="./img/icon1.png" alt="" class="img-fluid">
+
+              </div>
+              <h4>
+                <a href="#url" class="title-head">
+                  Our Process
+                </a>
+              </h4>
+
+            </div>
+            <div class="box-wrap">
+              <div class="icon">
+                <img src="./img/icon2.png" alt="" class="img-fluid">
+
+              </div>
+              <h4>
+                <a href="#url" class="title-head">
+                  How We Help
+                </a>
+              </h4>
+
+            </div>
+            <div class="box-wrap">
+              <div class="icon">
+                <img src="./img/icon3.png" alt="" class="img-fluid">
+
+              </div>
+              <h4>
+                <a href="#url" class="title-head">
+                  UI/UX Design
+                </a>
+              </h4>
+
+            </div>
+            <div class="box-wrap">
+              <div class="icon">
+                <img src="./img/icon4.png" alt="" class="img-fluid">
+
+              </div>
+              <h4>
+                <a href="#url" class="title-head">
+                  Creative Ideas
+                </a>
+              </h4>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    </div>
+  </section>
+  <!-- SERVICES -->
+  <section class="services">
+    <div class="container py-lg-5 mb-5">
+      <h3 class="title-big text-center mt-5">Always there for your care, our Services</h3>
+      <div class="services__content row mt-5 text-center">
+        <div class="col-lg-4">
+          <div class="services__item">
+            <a href="#url">
+              <img src="./img/s1.jpg" alt="" class="img-fluid service-image">
+            </a>
+            <div class="blog-info">
+              <a href="#url" class="title">
+                Work Expertise
+              </a>
+              <p class="content">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <div>
+              <a href="#url" class="btn btn-style">Learn More</a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 mt-md-0 mt-5">
+          <div class="services__item ">
+            <a href="#url">
+              <img src="./img/s2.jpg" alt="" class="img-fluid service-image">
+            </a>
+            <div class=" blog-info">
+              <a href="#url" class="title">
+                Product Development
+              </a>
+              <p class="content">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <div>
+              <a href="#url" class="btn btn-style">Learn More</a>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="col-lg-4 mt-lg-0 mt-5">
+          <div class="services__item ">
+            <a href="#url">
+              <img src="./img/s3.jpg" alt="" class="img-fluid service-image">
+            </a>
+            <div class="blog-info">
+              <a href="#url" class="title">
+                Software Development
+              </a>
+              <p class="content">Venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit..</p>
+            </div>
+            <div>
+              <a href="#url" class="btn btn-style">Learn More</a>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- GALLERY -->
+  <section class="gallery py-5 mb-5">
+    <div class="container py-lg-5">
+      <div class="title-content text-center">
+        <h3 class="title-small">OUR GALLERY</h3>
+        <h3 class="title-big mb-5">Successful projects we've done</h3>
+      </div>
+      <div class="gallery__list d-grid">
+        <div class="gallery__item">
+          <a href="#">
+            <img src="./img/c1.jpg" alt="" class="d-block img-fluid">
+            <div class="gallery__overlay">
+              <div class="gallery__text">
+                <h3>Project1</h3>
+                <p>Lorem ipsum dolor sit amet sit amet sit ametsit amet </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="gallery__item">
+          <a href="#">
+            <img src="./img/c2.jpg" alt="" class="d-block img-fluid">
+            <div class="gallery__overlay">
+              <div class="gallery__text">
+                <h3>Project2</h3>
+                <p>Lorem ipsum dolor sit amet sit amet sit ametsit amet </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="gallery__item">
+          <a href="#">
+            <img src="./img/c3.jpg" alt="" class="d-block img-fluid">
+            <div class="gallery__overlay">
+              <div class="gallery__text">
+                <h3>Project3</h3>
+                <p>Lorem ipsum dolor sit amet sit amet sit ametsit amet </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="gallery__item">
+          <a href="#">
+            <img src="./img/c4.jpg" alt="" class="d-block img-fluid">
+            <div class="gallery__overlay">
+              <div class="gallery__text">
+                <h3>Project4</h3>
+                <p>Lorem ipsum dolor sit amet sit amet sit ametsit amet </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="gallery__item">
+          <a href="#">
+            <img src="./img/c5.jpg" alt="" class="d-block img-fluid">
+            <div class="gallery__overlay">
+              <div class="gallery__text">
+                <h3>Project5</h3>
+                <p>Lorem ipsum dolor sit amet </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="gallery__item">
+          <a href="#">
+            <img src="./img/c6.jpg" alt="" class="d-block img-fluid">
+            <div class="gallery__overlay">
+              <div class="gallery__text">
+                <h3>Project6</h3>
+                <p>Lorem ipsum dolor sit amet sit amet sit ametsit amet </p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div class="row company-logos pt-5 mt-5 justify-content-center">
+        <div class="col-lg-2 col-md-3 col-4">
+          <img src="./img/brand1.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 col-4">
+          <img src="./img/brand6.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 col-4">
+          <img src="./img/brand3.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 col-4">
+          <img src="./img/brand4.png" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-2 col-md-3 col-4">
+          <img src="./img/brand5.png" alt="" class="img-fluid">
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- SUCCESS -->
+  <section class="success">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="success-item ">
+          <img src="img/about.jpg" class="img-fluid w-100" alt="">
+        </div>
+        <div class="success-item ml-4">
+          <h3 class="title-small">YOUR SUCCESS IS OUR SUCCESS</h3>
+          <h4 class="title-big ">Web design, marketing & SEO solutions that get results</h4>
+          <div class="percent mt-4">
+            <h4 class="success-text-1">Marketing<span>80%</span></h4>
+            <div class="progress">
+              <div class="progress-bar progress-bar-striped background-bar-1" role="progressbar"
+                aria-label="Default striped example" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
+                aria-valuemax="100"></div>
+            </div>
+            <div class="percent mt-4">
+              <h4 class="success-text-2">Marketing<span>95%</span></h4>
+              <div class="progress">
+                <div class="progress-bar progress-bar-striped background-bar-2" role="progressbar"
+                  aria-label="Default striped example" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+                  aria-valuemax="100"></div>
+              </div>
+              <div class="percent mt-4">
+                <h4 class="success-text-3">Marketing<span>60%</span></h4>
+                <div class="progress">
+                  <div class="progress-bar progress-bar-striped background-bar-3" role="progressbar"
+                    aria-label="Default striped example" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+                <div class="percent mt-4">
+                  <h4 class="success-text-4">Marketing<span>85%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped background-bar-4" role="progressbar"
+                      aria-label="Default striped example" style="width:85%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+  </section>
+  <!-- FEEDBACK -->
+  <section class="feedback mt-5 py-5 px-5">
+    <div class="container text-center">
+      <div class="feedback-heading">
+        <h3 class="title-small">HAPPY CLIENTS FEEDBACK</h3>
+        <h1 class="title-big">Reviews and Testimonials</h1>
+        <div class="owl-carousel owl-theme mt-5">
+          <div class="feedback-item ">
+            <p class="mb-5">Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi
+              voluptatibus esse quasi, doloribus tempora.
+              Dolores molestias adipisci dolo amet!. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Esse architecto est ea sunt eligendi cum? </p>
+            <div class="feedback-list d-flex">
+
+              <img src="img/team1.jpg" alt="" class="img-fluid">
+              <div class="feedback-text">
+                <h1>John Wilson</h1>
+                <h3>Student</h3>
+              </div>
+
+
+            </div>
+          </div>
+          <div class="feedback-item">
+            <p class="mb-5">Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi
+              voluptatibus esse quasi, doloribus tempora.
+              Dolores molestias adipisci dolo amet!. </p>
+            <div class="feedback-list d-flex">
+              <img src="img/team2.jpg" alt="" class="img-fluid w-50">
+              <div class="feedback-text ">
+                <h1>John Wilson</h1>
+                <h3>Student</h3>
+              </div>
+            </div>
+          </div>
+
+          <div class="feedback-item">
+            <p class="mb-5">Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi
+              voluptatibus esse quasi, doloribus tempora.
+              Dolores molestias adipisci dolo amet!. </p>
+            <div class="feedback-list d-flex">
+              <img src="img/team3.jpg" alt="" class="img-fluid w-50">
+              <div class="feedback-text ">
+                <h1>John Wilson</h1>
+                <h3>Student</h3>
+              </div>
+            </div>
+          </div>
+          <div class="feedback-item ">
+            <p class="mb-5">Lorem ipsum dolor sit amet elit. Velit beatae laudantium voluptate rem ullam dolore nisi
+              voluptatibus esse quasi, doloribus tempora.
+              Dolores molestias adipisci dolo amet!. </p>
+            <div class="feedback-list d-flex">
+              <img src="img/team4.jpg" alt="" class="img-fluid w-50">
+              <div class="feedback-text">
+                <h1>John Wilson</h1>
+                <h3>Student</h3>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- NEWS -->
+  <section class="news">
+    <div class="container">
+      <div class="news-text text-center">
+        <h3 class="title-small">LATEST NEWS</h3>
+        <h1 class="title-big">Our insight and articles </h1>
+      </div>
+      <div class="news-list">
+        <div class="row">
+          <div class="news-item">
+            <img src="img/blog1.jpg" class="img-fluid w-100" alt="">
+            <a href="#" class="d-block px-3 mt-3">Startup Business</a>
+            <a href="#" class="d-block px-3">Companies in NY launched a joint project on a three-tower hall</a>
+            <hr>
+            <div class="logo-news-list d-flex px-3">
+              <div class="logo-news">
+                <a href="#"><img src="img/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt=""><span>by</span>W3Layouts</a>
+              </div>
+              <div class="news-text">
+                <p>April 1, 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="img/blog2.jpg" class="img-fluid w-100" alt="">
+            <a href="#" class="d-block px-3 mt-3">Startup Business</a>
+            <a href="#" class="d-block px-3">Companies in NY launched a joint project on a three-tower hall</a>
+            <hr>
+            <div class="logo-news-list d-flex px-3">
+              <div class="logo-news">
+                <a href="#"><img src="img/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt=""><span>by</span>W3Layouts</a>
+              </div>
+              <div class="news-text">
+                <p>April 1, 2021</p>
+              </div>
+            </div>
+          </div>
+          <div class="news-item">
+            <img src="img/blog3.jpg" class="img-fluid w-100" alt="">
+            <a href="#" class="d-block px-3 mt-3">Startup Business</a>
+            <a href="#" class="d-block px-3">Design breakthrough upgrades the product and ready to launch</a>
+            <hr>
+            <div class="logo-news-list d-flex px-3">
+              <div class="logo-news">
+                <a href="#"><img src="img/328cc1f23e4a3b73aa60ee6ced1897a1.jpeg" alt=""><span>by</span>W3Layouts</a>
+              </div>
+              <div class="news-text">
+                <p>April 1, 2021</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- CONTACT -->
+  <section class="contact py-5 mt-5 ">
+    <div class="container text-center">
+      <div class="text-contact pt-5">
+        <h3 class="title-big">Let’s find out how to work together </h3>
+        <p class="mt-3">Lorem ipsum dolor sit amet elit. Velit beatae rem ullam dolore nisi esse quasi, sit amet. Lorem
+          ipsum dolor sit amet elit.</p>
+      </div>
+      <form action class="subscribe mt-5" method="post">
+        <div class="input-group">
+          <div class="input-group-prepend">
+            <div class="input-group-text" id="btnGroupAddon"><span class="fa fa-paper-plane"></span></div>
+          </div>
+          <input type="email" class="form-control" placeholder="Your email address" aria-label="Input group example"
+            aria-describedby="btnGroupAddon">
+          <div class="btn-contact">
+            <button class="btn btn-success">Subcribe</button>
+          </div>
+      </form>
+    </div>
+    </div>
+    </div>
+    <hr>
+  </section>
+  <!-- FOOTER -->
+
+  <footer class="footer py-5">
+    <div class="container">
+      <div class="footer-list">
+        <div class="row">
+          <div class="footer-item">
+            <i class="fa fa-align-right"><span> Corp Vision</span></i>
+            <span class="footer-text">Vision to your Future</span>
+            <p>Lorem ipsum viverra feugiat. Pellen tesque libero ut justo, ultrices in ligula. Semper at tempufddfel.
+              Lorem ipsum dolor sit amet Semper at elit team advisors.</p>
+            <div class="social-contact">
+              <i class="fab fa-facebook-f"></i>
+              <i class="fab fa-twitter"></i>
+              <i class="fab fa-instagram"></i>
+              <i class="fab fa-linkedin-in"></i>
+            </div>
+          </div>
+          <div class="footer-item">
+            <h4>CONTACT INFO</h4>
+            <p>Address : Corp Vision, 343 marketing, #21 cravel 1st lane street, NY - 62617.</p>
+            <p>Phone Number : <a href="#">+1(21) 234 4567</a></p>
+            <p>Email : <a href="#">info@example.com</a></p>
+            <p>Support : <a href="#">info@support.com</a></p>
+          </div>
+
+          <div class="footer-item">
+            <h4>CATEGORIES</h4>
+            <a href="#">Marketing Strategy</a><br>
+            <a href="#">Startup Business</a><br>
+            <a href="#">Web development</a>
+          </div>
+          <div class="footer-item">
+            <h4>META</h4>
+            <a href="#">Log in</a><br>
+            <a href="#">Entries feed</a><br>
+            <a href="#">Comments feed</a><br>
+            <a href="#">WordPress.org</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    </div>
+    <hr class="hr-footer">
+    <p class="text-center footer-by">© 2023 Corp Vision All Rights Reserved | WordPress Theme by <a href="#">
+        W3Layouts.</a></p>
+  </footer>
+  <a id="button"></a>
+<h1>hello</h1>
+  <!-- Header Scroll down -->
+  <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+
+  <script>
+    $(function () {
+      var shrinkHeader = 70;
+      $(window).scroll(function () {
+        var scroll = getCurrentScroll();
+        if (scroll >= shrinkHeader) {
+          $('.header').addClass('shrink');
+        }
+        else {
+          $('.header').removeClass('shrink');
+        }
+      });
+      function getCurrentScroll() {
+        return window.pageYOffset;
+      }
+    });
+  </script>
+
+
+  <!-- banner slick slider -->
+  <script src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/js/slick.js"></script>
+  <script src="https://wp.w3layouts.com/corpvision/wp-content/themes/corpvision/assets/js/script.js"></script>
+
+  <!-- thu vien ho tro -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  
+  <!-- BT4 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+
+  <!-- dark theme -->
+  <script>
+    document.getElementById("switchButton").onclick = function () {
+      document.getElementById("myBody").classList.toggle("dark");
+    };
+
+  </script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+   integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <script>
+   $(".owl-carousel").owlCarousel({
+     loop: true,
+     margin: 10,
+
+     responsive: {
+       0: {
+         items: 1,
+         nav: false
+       },
+       768: {
+         items: 1,
+         nav: false
+       },
+       1000: {
+         items: 1,
+         nav: false,
+         loop: false
+       }
+     }
+
+   });
+ </script>
+ <script>
+   var btn = $('#button');
+
+   $(window).scroll(function () {
+     if ($(window).scrollTop() > 300) {
+       btn.addClass('show');
+     } else {
+       btn.removeClass('show');
+     }
+   });
+
+   btn.on('click', function (e) {
+     e.preventDefault();
+     $('html, body').animate({ scrollTop: 0 }, '300');
+   });
+
+ </script>
+
+</body>
+
+</html>
