@@ -125,7 +125,9 @@ header.main-header {
   border-bottom: 1px solid rgba(231, 231, 231, 0.18);
 }
 
-
+.header__icon .btn{
+  text-align:inherit
+}
 /* Light theme */
 #switchButton .bi-brightness-high {
   display: none;
@@ -226,6 +228,28 @@ header.main-header {
 
 .dark .gallery .company-logos {
   border-top: 1px solid rgba(29, 42, 55, 0.8);
+}
+.dark .success .percent h4{
+  color: #c2c2c2;
+}
+.dark .feedback{
+  background-color: black;
+}
+.dark .feedback .feedback-text h1{
+  color: #c2c2c2;
+}
+
+.dark .news-item a:last-of-type{
+  color: #c2c2c2;
+}
+.dark .news-item hr{
+  border-top: 1px solid rgba(29, 42, 55, 0.8);
+}
+.dark .news .news-list .news-item{
+  border: 1px solid rgba(29, 42, 55, 0.8);
+}
+.dark .news .logo-news img{
+  border-radius: 50%;
 }
 
 
