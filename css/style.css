@@ -361,7 +361,9 @@ ul.sevice-list li a {
 .feature {
   background-color: #f7f7f7;
 }
-
+.feature .feature__left .title-small{
+  margin-top: 50px;
+}
 .feature .box-wrap {
   padding: 40px 30px;
   border-radius: 8px;
@@ -837,7 +839,7 @@ ul.sevice-list li a {
   width: 100px;
 }
 
-.btn {
+.btn-contact .btn {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   border-top-left-radius: 0;
@@ -1022,7 +1024,7 @@ ul.sevice-list li a {
     margin: auto;
   }
 
-  .btn {
+  .btn-contact .btn {
     width: 85px;
     height: 30px;
     text-align: center;
@@ -1051,5 +1053,42 @@ ul.sevice-list li a {
 
     object-position: center center;
   }
+/*  */
+  .AboutImages__small img:last-of-type{
+    margin-top: 10px;
+  }
+  .title-big{
+    font-size: 28px;
+    line-height: 35px;
+  }
+  .btn-success{
+    width: 180px;
+    height: 50px;
+    font-size: 16px;
+    
+    }
+  .feature__right__box{
+    margin-top: 70px;
+  }
+  .feature .box-wrap{
+    padding: 10px 30px;
+  }
+  .feature .feature__right__box {
+    gap: 15px;
+  }
+  .feature .box-wrap h4 a {
+    font-size: 18px;
+  }
+  .feature__left p{
+    padding: 30px 0;
+  }
+  .gallery .gallery__list {
+    display:unset;
+  }
+  .gallery__item{
+    margin-bottom: 20px;
+  }
 }
+
+
 
