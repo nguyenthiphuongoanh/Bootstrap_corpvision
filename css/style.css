@@ -1023,36 +1023,6 @@ ul.sevice-list li a {
     object-position: center center;
   }
 
-  /*  */
-  /* .title-big {
-    font-size: 26px;
-    line-height: 35px;
-  }
-  .AboutImages .col-6{
-    padding: 0 5px;
-  }
-  .feature .feature__left .title-small {
-    margin-top: 0px;
-  }
-  .feature__right__box {
-    margin-top: 90px;
-  }
-  .feature .box-wrap h4 a {
-    font-size: 16px;
-  }
-  .services .row {
-    flex-wrap: wrap;
-    flex-direction: row;
-  }
-  .gallery .gallery__list {
-    display: unset;
-  }
-  .gallery .gallery__list {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 35px;
-  } */
-
 }
 
 @media only screen and (max-width: 390px) {
