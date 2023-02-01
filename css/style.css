@@ -328,7 +328,9 @@ header.main-header {
   right: -1000px;
 }
 
-
+.carousel-caption .btn{
+  text-align: inherit;
+}
 /* ABOUT US */
 
 ul.sevice-list li {
