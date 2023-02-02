@@ -1068,9 +1068,35 @@ ul.sevice-list li a {
 }
 
 /* responsive_PhươngOanh */
-
+@media only screen and (max-width: 991px){
+  .navbar-collapse {
+    max-height: calc(100vh - 80px);
+    overflow-y: scroll;
+}
+.navbar-brand{
+  position: absolute;
+ left: 0;
+  top: 30px;
+}
+.header-search {
+  position: absolute;
+  right: 100px;
+  top: 30px;
+}
+.moon-position {
+  position: absolute;
+  right: 55px;
+  top: 35px;
+}
+.bar-position{
+  position: absolute;
+  right: 5px;
+  top: 40px;
+}
+}
 @media only screen and (max-width: 912px){
-.title-big {
+  
+  .title-big {
     font-size: 32px;
     line-height: 35px;
   }

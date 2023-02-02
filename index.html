@@ -19,8 +19,8 @@
   <!-- slick slider css -->
   <link rel="stylesheet" href="./css/slick.css">
 
-    <!-- carousel -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+  <!-- carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -42,21 +42,21 @@
 
 </head>
 
-<body id="myBody" >
+<body id="myBody">
   <!-- HEADER -->
   <header class="header fixed-top main-header">
-    <nav class="d-flex justify-content-around navcorpvision navbar navbar-expand-lg">
+    <nav class="container d-flex justify-content-around navcorpvision navbar navbar-expand-lg">
       <a class="navbar-brand text-center" href="#">
         <p class="font-weight-bold mb-0"><i class="header__logo fa fa-align-right"></i>Corp Vision</p>
         <p class="font-weight-bold">Vision to your Future</p>
       </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCorpvision"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars"></i>
+      <button class="bar-position navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarCorpvision"
+        aria-controls="navbarCorpvision" aria-expanded="false" aria-label="Toggle navigation">
+        <i class=" fa fa-bars"></i>
       </button>
 
-      <div id="navbarCorpvision">
-        <ul class="container navbar-nav font-weight-bold">
+      <div class="navbar-collapse collapse" id="navbarCorpvision">
+        <ul class="container navbar-nav font-weight-bold justify-content-center">
           <li class="nav-item active">
             <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
           </li>
@@ -82,16 +82,17 @@
             <a class="nav-link" href="#">CONTACT</a>
           </li>
         </ul>
-      </div>
-      <div class="header__icon">
-        <a href="#" class="m-0">
-          <i class="header__icon__search fa fa-search"></i>
-        </a>
-        <div class="btn" id="switchButton">
-          <i class="far fa-moon"></i>
-          <i class="bi bi-brightness-high"></i>
+        <div class="header__icon d-flex">
+          <a href="#" class="m-0">
+            <i class="header-search header__icon__search fa fa-search"></i>
+          </a>
+          <div class="moon-position btn" id="switchButton">
+            <i class="far fa-moon"></i>
+            <i class="bi bi-brightness-high"></i>
+          </div>
         </div>
       </div>
+      
     </nav>
   </header>
 
@@ -108,7 +109,8 @@
               to your future</h1>
             <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Corrupti, explicabo totam. Perferendis voluptate incidunt minima impedit</p>
-            <button type="button" class="btn btn-success text-center animate__animated animate__fadeInUp animate__delay-1s">Learn
+            <button type="button"
+              class="btn btn-success text-center animate__animated animate__fadeInUp animate__delay-1s">Learn
               More</button>
           </div>
         </div>
@@ -119,7 +121,8 @@
               need best advice</h1>
             <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Corrupti, explicabo totam. Perferendis voluptate incidunt minima impedit</p>
-            <button type="button" class="btn btn-success text-center animate__animated animate__fadeInDown animate__delay-1s">Get
+            <button type="button"
+              class="btn btn-success text-center animate__animated animate__fadeInDown animate__delay-1s">Get
               Started</button>
           </div>
         </div>
@@ -130,7 +133,8 @@
               technology</h1>
             <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Corrupti, explicabo totam. Perferendis voluptate incidunt minima impedit</p>
-            <button type="button" class="btn btn-success text-center animate__animated animate__fadeInDown animate__delay-1s"> Learn
+            <button type="button"
+              class="btn btn-success text-center animate__animated animate__fadeInDown animate__delay-1s"> Learn
               More</button>
           </div>
         </div>
@@ -141,7 +145,8 @@
               mark</h1>
             <p class="animate__animated animate__fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit.
               Corrupti, explicabo totam. Perferendis voluptate incidunt minima impedit</p>
-            <button type="button" class="btn btn-success text-center animate__animated animate__fadeInUp animate__delay-1s">Contact
+            <button type="button"
+              class="btn btn-success text-center animate__animated animate__fadeInUp animate__delay-1s">Contact
               Now</button>
           </div>
         </div>
@@ -229,7 +234,8 @@ M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,1
         <div class="feature__left col-lg-6 pr-lg-5">
           <span class="title-small">EVERY DAY BRINGS NEW CHALLENGES</span>
           <h3 class="title-big">Creative agency focused on vision, product and people</h3>
-          <p class="content mt-md-4 mb-md-4">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia
+          <p class="content mt-md-4 mb-md-4">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed,
+            lacinia
             est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.
             Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
           <button type="button" class="btn btn-success mt-lg-4">Discover More</button>
@@ -453,43 +459,44 @@ M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,1
     </div>
   </section>
 
- <!-- SUCCESS -->
- <section class="success">
-  <div class="container">
-    <div class="row align-item-center">
-      <div class="success-item ">
-        <img src="img/about.jpg" class="img-fluid w-100" alt="">
-      </div>
-      <div class="success-item ml-4">
-        <h3 class="title-small">YOUR SUCCESS IS OUR SUCCESS</h3>
-        <h4 class="title-big ">Web design, marketing & SEO solutions that get results</h4>
-        <div class="percent mt-4">
-          <h4 class="success-text-1">Marketing<span>80%</span></h4>
-          <div class="progress">
-            <div class="progress-bar progress-bar-striped background-bar-1" role="progressbar"
-              aria-label="Default striped example" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
-              aria-valuemax="100"></div>
-          </div>
+  <!-- SUCCESS -->
+  <section class="success">
+    <div class="container">
+      <div class="row align-item-center">
+        <div class="success-item ">
+          <img src="img/about.jpg" class="img-fluid w-100" alt="">
+        </div>
+        <div class="success-item ml-4">
+          <h3 class="title-small">YOUR SUCCESS IS OUR SUCCESS</h3>
+          <h4 class="title-big ">Web design, marketing & SEO solutions that get results</h4>
           <div class="percent mt-4">
-            <h4 class="success-text-2">Marketing<span>95%</span></h4>
+            <h4 class="success-text-1">Marketing<span>80%</span></h4>
             <div class="progress">
-              <div class="progress-bar progress-bar-striped background-bar-2" role="progressbar"
-                aria-label="Default striped example" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
+              <div class="progress-bar progress-bar-striped background-bar-1" role="progressbar"
+                aria-label="Default striped example" style="width: 80%" aria-valuenow="80" aria-valuemin="0"
                 aria-valuemax="100"></div>
             </div>
             <div class="percent mt-4">
-              <h4 class="success-text-3">Marketing<span>60%</span></h4>
+              <h4 class="success-text-2">Marketing<span>95%</span></h4>
               <div class="progress">
-                <div class="progress-bar progress-bar-striped background-bar-3" role="progressbar"
-                  aria-label="Default striped example" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
+                <div class="progress-bar progress-bar-striped background-bar-2" role="progressbar"
+                  aria-label="Default striped example" style="width: 95%" aria-valuenow="95" aria-valuemin="0"
                   aria-valuemax="100"></div>
               </div>
               <div class="percent mt-4">
-                <h4 class="success-text-4">Marketing<span>85%</span></h4>
+                <h4 class="success-text-3">Marketing<span>60%</span></h4>
                 <div class="progress">
-                  <div class="progress-bar progress-bar-striped background-bar-4" role="progressbar"
-                    aria-label="Default striped example" style="width:85%" aria-valuenow="80" aria-valuemin="0"
+                  <div class="progress-bar progress-bar-striped background-bar-3" role="progressbar"
+                    aria-label="Default striped example" style="width: 60%" aria-valuenow="60" aria-valuemin="0"
                     aria-valuemax="100"></div>
+                </div>
+                <div class="percent mt-4">
+                  <h4 class="success-text-4">Marketing<span>85%</span></h4>
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped background-bar-4" role="progressbar"
+                      aria-label="Default striped example" style="width:85%" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -497,8 +504,7 @@ M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,1
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
   <!-- FEEDBACK -->
   <section class="feedback mt-5 py-5 px-5">
     <div class="container text-center">
@@ -693,6 +699,7 @@ M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,1
         W3Layouts.</a></p>
   </footer>
   <a id="button"></a>
+  
   <!-- Header Scroll down -->
   <script class="cssdeck" src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
 
@@ -723,7 +730,7 @@ M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,1
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
     integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  
+
   <!-- BT4 JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
@@ -736,49 +743,49 @@ M0,160L48,181.3C96,203,192,245,288,261.3C384,277,480,267,576,234.7C672,203,768,1
     };
 
   </script>
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
-   integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
-   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
- <script>
-   $(".owl-carousel").owlCarousel({
-     loop: true,
-     margin: 10,
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+    integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script>
+    $(".owl-carousel").owlCarousel({
+      loop: true,
+      margin: 10,
 
-     responsive: {
-       0: {
-         items: 1,
-         nav: false
-       },
-       768: {
-         items: 1,
-         nav: false
-       },
-       1000: {
-         items: 1,
-         nav: false,
-         loop: false
-       }
-     }
+      responsive: {
+        0: {
+          items: 1,
+          nav: false
+        },
+        768: {
+          items: 1,
+          nav: false
+        },
+        1000: {
+          items: 1,
+          nav: false,
+          loop: false
+        }
+      }
 
-   });
- </script>
- <script>
-   var btn = $('#button');
+    });
+  </script>
+  <script>
+    var btn = $('#button');
 
-   $(window).scroll(function () {
-     if ($(window).scrollTop() > 300) {
-       btn.addClass('show');
-     } else {
-       btn.removeClass('show');
-     }
-   });
+    $(window).scroll(function () {
+      if ($(window).scrollTop() > 300) {
+        btn.addClass('show');
+      } else {
+        btn.removeClass('show');
+      }
+    });
 
-   btn.on('click', function (e) {
-     e.preventDefault();
-     $('html, body').animate({ scrollTop: 0 }, '300');
-   });
+    btn.on('click', function (e) {
+      e.preventDefault();
+      $('html, body').animate({ scrollTop: 0 }, '300');
+    });
 
- </script>
+  </script>
 
 </body>
 
